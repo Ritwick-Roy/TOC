@@ -22,6 +22,7 @@ public class Menu extends AppCompatActivity {
     private ImageButton nearby;
     private ImageButton society;
     private ImageButton settings;
+    private ImageButton hostel;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,6 +112,20 @@ public class Menu extends AppCompatActivity {
                 funsettings();
             }
         });
+        hostel=findViewById(R.id.hostel);
+        hostel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                funhostel();
+            }
+        });
+    }
+
+    private void funhostel() {
+        Toast.makeText(this, "Hostel Information...", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this,Hostel.class);
+        startActivity(intent);
     }
 
     private void funsettings() {

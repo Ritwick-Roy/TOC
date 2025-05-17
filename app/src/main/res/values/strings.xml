@@ -53,4 +53,9 @@
     <string name="login">LOGIN</string>
     <string name="username">Username</string>
     <string name="settings">Settings</string>
+    <string name="studentsandrooms">students and rooms</string>
+    <string name="rules">rules and regulations</string>
+    <string name="circulars">hostel circulars</string>
+    <string name="fees">hostel fee structure</string>
+    <string name="todo1">todo1</string>
 </resources>

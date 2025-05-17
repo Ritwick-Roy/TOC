@@ -1,0 +1,2 @@
+rootProject.name = "TOC-Thapar on a Click"
+include ':app'

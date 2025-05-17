@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.toc_thaparonaclick">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -8,6 +9,9 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -16,14 +20,19 @@
         android:roundIcon="@mipmap/ic_toc"
         android:supportsRtl="true"
         android:theme="@style/Theme.TOCThaparOnAClick">
-        <activity android:name=".ViewActivity"
+        <activity android:name=".Studentstable"></activity>
+        <activity android:name=".Hostel" />
+        <activity
+            android:name=".ViewActivity"
             android:label="View Your Profile"
             android:parentActivityName=".SettingsActivity" />
-        <activity android:name=".UpdateActivity"
+        <activity
+            android:name=".UpdateActivity"
             android:label="Update Your Profile"
             android:parentActivityName=".SettingsActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".SettingsActivity"
+        <activity
+            android:name=".SettingsActivity"
             android:label="Settings"
             android:parentActivityName=".Menu" />
         <activity android:name=".Delete" />
@@ -133,6 +142,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="pdftron_license_key" android:value="${pdftronLicenseKey}"/>
+
+        <!-- Document viewer activity declaration-->
+        <activity android:name="com.pdftron.pdf.controls.DocumentActivity" android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize" android:windowSoftInputMode="adjustPan" android:theme="@style/PDFTronAppTheme"/>
+
     </application>
 
 </manifest>

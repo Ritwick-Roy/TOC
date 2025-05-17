@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Monday">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7C42C9F3"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="20dip"
+                android:text=""
+                android:textSize="2sp" />
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:padding="20dip"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="112dp"
+                android:layout_height="60dp"
+                android:layout_column="1"
+                android:layout_marginTop="0dp"
+                android:gravity="start"
+                android:padding="14dip"
+                android:text="116"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_column="2"
+                android:gravity="right"
+                android:padding="1dip"
+                android:text="Sajeev and Prakhar"
+                android:textAlignment="center"
+                android:textColorLink="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="118"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="Pratyaksh and Nimit"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="109"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="204"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="Arihant and Harsh"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="106"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="Arjun and Sahaj"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="107"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="Utkarsh and Gobind"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="108"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="Ayush and Prasoon"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="122"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="Jodhdeep and Chiranjeev"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="123"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="Ritwick and Abhishek"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="#C923BDD1"
+        android:text="Room No.'s"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
